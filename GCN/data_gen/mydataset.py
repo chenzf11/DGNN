@@ -20,8 +20,8 @@ class mydataset(Dataset):
         self.data = []
         self.label = []
         for i in self.classes:
-            tmp = os.listdir(root+'\\'+i)
-            tmp = [root + '\\' + i + '\\' + file for file in tmp]
+            tmp = os.listdir(root+'/'+i)
+            tmp = [root + '/' + i + '/' + file for file in tmp]
             lens = len(tmp)
             self.data.extend(tmp)
             tmp = list(np.ones(lens)*self.cls_idx[i])
