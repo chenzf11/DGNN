@@ -56,6 +56,7 @@ python main.py --config ./config/Humen-skele/train.yaml
 
 python main.py --config ./config/Humen-skele/test.yaml
 
+使用其他训练的权值文件，需要更改./config/Humen-skele/test.yaml文件里倒数第二行的weights:path，其中path为权值文件的相对路径
 
 
 ### 参数说明
