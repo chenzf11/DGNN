@@ -23,5 +23,5 @@ device: [0, 1]
 test_batch_size: 10
 # NOTE: default tests the newest weight
 # Change filename if using different batch sizes
-weights: ./runs/HumSk_dgnn-180-2240.pt
+weights: ./runs/HumSk_dgnn-210-756.pt
 save_score: True
