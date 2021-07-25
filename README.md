@@ -28,7 +28,7 @@ tensorboardX >= 1.8 (For logging)
 
 解压后，将 “人体姿态序列分类 ” 文件夹放在 ‘./data/'目录下
 
-下载已有的权值文件 “HumSk_dgnn-180-2240.pt”
+下载已有的权值文件 “HumSk_dgnn-210-756.pt”
 
 链接：[https://pan.baidu.com/s/1S2faxXzoZNaT4QAiHrUQFg ](https://pan.baidu.com/s/1S2faxXzoZNaT4QAiHrUQFg )
 
